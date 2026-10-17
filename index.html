@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aman Digital | SEO & Digital Marketing Agency</title>
+
+    <meta name="description" content="Aman Digital provides keyword research, on-page SEO, technical SEO, local SEO, SEO audits and SEO reporting to help businesses grow online.">
+
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0066ff">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.7;
+            color: #222;
+            background: #f5f8ff;
+        }
+
+        header {
+            background: #0066ff;
+            color: white;
+            padding: 18px 6%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .logo {
+            font-size: 27px;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 70px 8%;
+            scroll-margin-top: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            background: white;
+            padding: 100px 8%;
+        }
+
+        .tagline {
+            color: #0066ff;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 {
+            color: #0066ff;
+            font-size: clamp(32px, 5vw, 48px);
+            line-height: 1.2;
+            margin-bottom: 18px;
+        }
+
+        .hero h2 {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 750px;
+            margin: 0 auto 20px;
+            color: #555;
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #0066ff;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 8px;
+        }
+
+        .button:hover {
+            background: #004dcc;
+        }
+
+        .whatsapp {
+            background: #168b48;
+        }
+
+        .whatsapp:hover {
+            background: #116b37;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .section-title span {
+            color: #0066ff;
+            font-weight: bold;
+        }
+
+        .section-title h2 {
+            font-size: 34px;
+            margin-top: 8px;
+        }
+
+        .about {
+            text-align: center;
+            background: #f5f8ff;
+        }
+
+        .about p {
+            max-width: 800px;
+            margin: auto;
+            color: #555;
+            font-size: 18px;
+        }
+
+        .services {
+            background: white;
+        }
+
+        .services-intro {
+            text-align: center;
+            color: #555;
+            max-width: 750px;
+            margin: -15px auto 30px;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 22px;
+        }
+
+        .card {
+            background: #f5f8ff;
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #e0e9ff;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .icon {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        .card h3 {
+            color: #0066ff;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #555;
+        }
+
+        .contact {
+            text-align: center;
+            background: #eaf1ff;
+        }
+
+        .contact p {
+            margin: 10px auto;
+            color: #555;
+        }
+
+        footer {
+            background: #101d35;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        @media (max-width: 800px) {
+            header {
+                justify-content: center;
+                text-align: center;
+            }
+
+            nav {
+                justify-content: center;
+            }
+
+            .service-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
+            section {
+                padding: 55px 6%;
+            }
+
+            .hero {
+                padding: 75px 6%;
+            }
+        }
+
+        @media (max-width: 520px) {
+            .service-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .section-title h2 {
+                font-size: 28px;
+            }
+
+            nav {
+                gap: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Aman Digital</div>
+
+        <nav aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">SEO Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero" id="home">
+            <div class="tagline">DIGITAL MARKETING AGENCY</div>
+
+            <h1>Grow Your Business Online With Smart SEO</h1>
+
+            <h2>SEO &amp; Digital Marketing Services</h2>
+
+            <p>
+                Aman Digital helps businesses improve their Google ranking,
+                get more visitors and grow their online presence through
+                smart SEO and digital marketing strategies.
+            </p>
+
+            <a href="#services" class="button">Our SEO Services</a>
+            <a href="#contact" class="button">Contact Us</a>
+        </section>
+
+        <section class="about" id="about">
+            <div class="section-title">
+                <span>ABOUT US</span>
+                <h2>About Aman Digital</h2>
+            </div>
+
+            <p>
+                Aman Digital helps businesses grow online through SEO,
+                keyword research, website improvements and digital
+                marketing strategies. Our goal is to help businesses
+                improve their online visibility and reach more customers.
+            </p>
+        </section>
+
+        <section class="services" id="services">
+            <div class="section-title">
+                <span>OUR SERVICES</span>
+                <h2>Our SEO Services</h2>
+            </div>
+
+            <p class="services-intro">
+                We provide practical SEO services designed to improve
+                website visibility and help businesses reach more customers.
+            </p>
+
+            <div class="service-grid">
+
+                <article class="card">
+                    <div class="icon">🔍</div>
+                    <h3>Keyword Research</h3>
+                    <p>
+                        Find relevant keywords your customers search for on Google.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="icon">📄</div>
+                    <h3>On-Page SEO</h3>
+                    <p>
+                        Improve website titles, headings, content and page structure.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="icon">⚙️</div>
+                    <h3>Technical SEO</h3>
+                    <p>
+                        Improve website speed, mobile performance and technical health.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="icon">📍</div>
+                    <h3>Local SEO</h3>
+                    <p>
+                        Help businesses reach customers through relevant local searches.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="icon">📊</div>
+                    <h3>SEO Audit</h3>
+                    <p>
+                        Find SEO problems and opportunities that can improve your website.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="icon">📈</div>
+                    <h3>SEO Reporting</h3>
+                    <p>
+                        Track website performance, keyword rankings and SEO progress.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="section-title">
+                <span>CONTACT</span>
+                <h2>Contact Aman Digital</h2>
+            </div>
+
+            <p>
+                Ready to improve your Google visibility?
+                Contact Aman Digital today.
+            </p>
+
+            <a
+                href="https://wa.me/919990272116"
+                class="button whatsapp"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                WhatsApp Us
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p><strong>Aman Digital</strong></p>
+        <p>SEO &amp; Digital Marketing Services</p>
+        <p>&copy; 2026 Aman Digital. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
